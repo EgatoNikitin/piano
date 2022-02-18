@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Piano</title>
+</head>
+
+<body>
+    <section class="landing">
+        <div class="text">
+            <div class="title">SOUND</div>
+            <div class="subtitle">click</div>
+        </div>
+        <div class="buttons">
+            <div class="line">
+                <button data-key="70" class="button-ckickc" type="button"> <span class="button-text">Q</span><img
+                        class="button-img" src="./img/image 1.png" alt="#"></button>
+            </div>
+            <div class="line">
+                <button data-key="71" class="button-ckickc" type="button"><span class="button-text">W</span><img
+                        class="button-img" src="./img/image 1.png" alt="#"></button>
+            </div>
+            <div class="line">
+                <button data-key="72" class="button-ckickc" type="button"><span class="button-text">E</span><img
+                        class="button-img" src="./img/image 1.png" alt="#"></button>
+            </div>
+            <div class="line">
+                <button data-key="74" class="button-ckickc" type="button"><span class="button-text">R</span><img
+                        class="button-img" src="./img/image 1.png" alt="#"></button>
+            </div>
+            <div class="line">
+                <button data-key="75" class="button-ckickc" type="button"><span class="button-text">T</span><img
+                        class="button-img" src="./img/image 1.png" alt="#"></button>
+            </div>
+            <div class="last-line line">
+                <button data-key="76" class="last-button button-ckickc" type="button"><img class="button-img"
+                        src="./img/image 1.png" alt="#"></button>
+            </div>
+
+        </div>
+    </section>
+    <audio src="./sounds/piano-a-1.mp3" data-key="70"></audio>
+    <audio src="./sounds/piano-b-1.mp3" data-key="71"></audio>
+    <audio src="./sounds/piano-c-1.mp3" data-key="72"></audio>
+    <audio src="./sounds/piano-d-1.mp3" data-key="74"></audio>
+    <audio src="./sounds/piano-e-1.mp3" data-key="75"></audio>
+    <audio src="./sounds/piano-f-1.mp3" data-key="76"></audio>
+    <script src="./script.js"></script>
+</body>
+
+</html>

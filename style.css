@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+button {
+    all: unset;
+    cursor: pointer;
+}
+body {
+    background-image: url(./img/pexels-gabriela-cheloni-2191123\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+.text {
+    margin-top: 20%;
+}
+.title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 112px;
+    color: #ffffff;
+    text-shadow: 0px 0px 6px rgba(248, 255, 204, 0.78);
+}
+.subtitle {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #ffffff;
+}
+.buttons {
+    margin: 0 225px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 70px;
+}
+.button-ckickc {
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    width: 108px;
+    height: 108px;
+    border-radius: 70px;
+}
+
+.button-ckickc:hover,
+.button-ckickc:active {
+    width: 112px;
+    height: 112px;
+    background-color: #eeeded;
+    color: #86733c;
+}
+.last-line {
+    display: none;
+}
+.button-img {
+    display: none;
+}
+@media (max-width: 1290px) {
+    body {
+        background-image: url(./img/smalScrin.png);
+    }
+    .button-ckickc:hover {
+        width: 88px;
+        height: 88px;
+    }
+    .button-text {
+        display: none;
+    }
+    .text {
+        margin-top: 35%;
+    }
+    .title {
+        font-size: 75px;
+    }
+    .buttons {
+        margin: 0 60px;
+        margin-top: 12%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .button-ckickc {
+        font-size: 20px;
+        line-height: 35px;
+        width: 88px;
+        height: 88px;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .line {
+        margin-top: 15px;
+        width: 98px;
+        height: 98px;
+        border-radius: 70px;
+    }
+    .last-line {
+        display: flex;
+    }
+    .button-img {
+        width: 55px;
+        height: 55px;
+        display: flex;
+    }
+}
+@media (max-width: 415px) {
+    .buttons {
+        margin: 0 70px;
+    }
+}
+@media (max-width: 376px) {
+    .buttons {
+        margin: 0 60px;
+    }
+    .text {
+        margin-top: 30%;
+    }
+}
+@media (max-width: 321px) {
+    .text {
+        margin-top: 19%;
+    }
+    .title {
+        font-size: 75px;
+        line-height: 80px;
+    }
+    .buttons {
+        margin-top: 4%;
+    }
+}
